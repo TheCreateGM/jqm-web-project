@@ -4,7 +4,7 @@
 
 **Project Title:** AxoGroup - Creative Services 
 
-**Team Members:** AxoGM
+**Team Members:** AxoGM, juanpump
 
 **Course:** WEB DESIGN  
 

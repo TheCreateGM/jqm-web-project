@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AxoGroup - Creative Services</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/d.min.css">
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+        <div data-role="header" data-theme="d">
+            <h1>AxoGroup</h1>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#support">Service</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <img src="https://res.allmacwallpaper.com/get/macbook-air-wallpapers/Switzerland/18956-720.jpg" class="header-image">
+            
+            <div class="content-block">
+                <h2>Hello World, AxoGroup is here!</h2>
+                <p>Welcome to our creative space where we share our projects and passions.</p>
+            </div>
+            
+            <div class="content-block">
+                <h2>The Complete History of AxoGM and TheCreateGM</h2>
+                <p>AxoGM and TheCreateGM have each established their own unique positions in the fields of gaming and creative content.</p>
+                <a href="#about" class="ui-btn ui-btn-b">Learn More</a>
+            </div>
+            
+            <!-- Music Player -->
+            <div class="music-player">
+                <a href="#" class="ui-btn ui-icon-music ui-btn-icon-notext" id="toggleMusic">Play</a>
+                <audio id="lofiMusic" loop>
+                    <source src="lofi.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; AxoGroup 2025</h2>
+        </div>
+    </div>
+    
+    <!-- About Page -->
+    <div data-role="page" id="about">
+        <div data-role="header" data-theme="d">
+            <h1>About Us</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-home">Home</a>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about" class="ui-btn-active">About</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#support">Service</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <div class="content-block">
+                <h2>AxoGM</h2>
+                <img src="https://awesomewallpapersblog.com/wp-content/uploads/2010/05/mac_march_.png" class="profile-image">
+                
+                <h3>Origins and Early Content</h3>
+                <p>AxoGM debuted in early 2023 with a YouTube video titled "backroom complex art timelapse".</p>
+                
+                <h3>Growth and Milestones</h3>
+                <p>As of April 2025, AxoGM's channel has reached approximately 504 subscribers.</p>
+                
+                <h3>Online Activities and Projects</h3>
+                <p>On Instagram (username: creategm10), digital art and sculpting works are showcased in collaboration with ArtStation.</p>
+                
+                <h3>Current Focus</h3>
+                <p>Currently producing art timelapses, server setup guides, and programming demos.</p>
+            </div>
+            
+            <div class="content-block">
+                <h2>TheCreateGM</h2>
+                <img src="https://assets.midnightcheese.com/images/68k/68k-desktop.gif" class="profile-image">
+                
+                <h3>Beginning of YouTube Activities</h3>
+                <p>TheCreateGM has been posting Minecraft PE build timelapse videos on YouTube since at least 2021.</p>
+                
+                <h3>Forum and Community Activities</h3>
+                <p>Registered on the CloudburstMC (formerly Nukkit) forum on October 20, 2021.</p>
+                
+                <h3>Server Development</h3>
+                <p>Launched an anarchy-style Minecraft server called "4cpvp" in April 2021.</p>
+                
+                <h3>Current Activities</h3>
+                <p>While new video uploads are infrequent, Minecraft server operation and SNS activities continue.</p>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; AxoGroup 2025</h2>
+        </div>
+    </div>
+    
+    <!-- Order Page -->
+    <div data-role="page" id="store">
+        <div data-role="header" data-theme="d">
+            <h1>Our Store</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-home">Home</a>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#store" class="ui-btn-active">Store</a></li>
+                    <li><a href="#support">Service</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <div class="content-block">
+                <h2>Store Packages</h2>
+                <p>Choose from our store packages:</p>
+                
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="https://axogm.itch.io/">
+                        <h2>AxoGM Store</h2>
+                        <p>Our axogm.io</p>
+                    </a></li>
+                    <li><a href="http://axogmweb.unaux.com/">
+                        <h2>AxoGM portfolio</h2>
+                        <p>Our portfolio</p>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; AxoGroup 2025</h2>
+        </div>
+    </div>
+    
+    <!-- Support/Order Form Page -->
+    <div data-role="page" id="support">
+        <div data-role="header" data-theme="d">
+            <h1>Place Order</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-home">Home</a>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#store">Store</a></li>
+                    <li><a href="#support" class="ui-btn-active">Service</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <div class="content-block support-form">
+                <h2>Order Form</h2>
+                
+                <form id="registrationForm">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    
+                    <fieldset data-role="controlgroup">
+                        <legend>Service Package:</legend>
+                        <input type="radio" name="package" id="member" value="50">
+                        <label for="member">Member (RM 50 per project)</label>
+                        <input type="radio" name="package" id="pro" value="100">
+                        <label for="pro">Pro Member (RM 100 per project)</label>
+                    </fieldset>
+                    
+                    <label for="noproject">Number of Projects:</label>
+                    <input type="number" id="noproject" min="1" required>
+                    
+                    <button type="submit" class="ui-btn ui-btn-b">Place Order</button>
+                </form>
+                
+                <div id="output"></div>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; AxoGroup 2025</h2>
+        </div>
+    </div>
+    
+    <!-- Receipt Page -->
+    <div data-role="page" id="receipt">
+        <div data-role="header" data-theme="d">
+            <h1>Order Confirmation</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-home">Home</a>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <div class="content-block">
+                <h2>Thank You for Your Order!</h2>
+                <p>Your order has been successfully placed. A confirmation has been sent to your email.</p>
+                
+                <div class="receipt-details">
+                    <div class="receipt-row">
+                        <span>Order Number:</span>
+                        <span id="receipt-order-number"></span>
+                    </div>
+                    <div class="receipt-row">
+                        <span>Date:</span>
+                        <span id="receipt-date"></span>
+                    </div>
+                    <div class="receipt-row">
+                        <span>Customer Name:</span>
+                        <span id="receipt-name"></span>
+                    </div>
+                    <div class="receipt-row">
+                        <span>Email:</span>
+                        <span id="receipt-email"></span>
+                    </div>
+                    <div class="receipt-row">
+                        <span>Package:</span>
+                        <span id="receipt-package"></span>
+                    </div>
+                    <div class="receipt-row">
+                        <span>Number of Projects:</span>
+                        <span id="receipt-projects"></span>
+                    </div>
+                    <div class="receipt-row">
+                        <span>Price per Project:</span>
+                        <span id="receipt-price"></span>
+                    </div>
+                    <div class="receipt-row receipt-total">
+                        <span>Total Amount:</span>
+                        <span id="receipt-total"></span>
+                    </div>
+                </div>
+                
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <button class="ui-btn ui-btn-b" id="printReceipt">Print Receipt</button>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#home" class="ui-btn ui-btn-a">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; AxoGroup 2025</h2>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+/* Custom CSS */
+.ui-page {
+    background: #f9f9f9;
+}
+
+.header-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content-block {
+    margin: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.support-form {
+    padding: 15px;
+}
+
+.ui-footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.receipt-details {
+    margin: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+}
+
+.receipt-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.receipt-total {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.music-player {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 1000;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}

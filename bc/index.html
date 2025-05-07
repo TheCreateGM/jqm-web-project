@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AxoGroup - Creative Projects</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="themes/d.min.css">
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css">
+    <style>
+        /* Custom CSS */
+        .ui-page {
+            background: #f9f9f9;
+        }
+        
+        .header-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .content-block {
+            margin: 15px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .profile-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        
+        .support-form {
+            padding: 15px;
+        }
+        
+        .ui-footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Home Page -->
+    <div data-role="page" id="home">
+        <div data-role="header" data-theme="d">
+            <h1>AxoGroup</h1>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <img src="https://res.allmacwallpaper.com/get/macbook-air-wallpapers/Switzerland/18956-720.jpg" class="header-image">
+            
+            <div class="content-block">
+                <h2>Hello World, AxoGroup is here!</h2>
+                <p>Welcome to our creative space where we share our projects and passions.</p>
+            </div>
+            
+            <div class="content-block">
+                <h2>AxoGMとTheCreateGMの完全な歴史</h2>
+                <hr>
+                <p>AxoGMとTheCreateGMは、それぞれゲームやクリエイティブコンテンツの分野で独自の立ち位置を築いてきました。</p>
+                <a href="#about" class="ui-btn ui-btn-b">Learn More</a>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; axogm 2025</h2>
+        </div>
+    </div>
+    
+    <!-- About Page -->
+    <div data-role="page" id="about">
+        <div data-role="header" data-theme="d">
+            <h1>About Us</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-home">Home</a>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about" class="ui-btn-active">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <div class="content-block">
+                <h2>AxoGM</h2>
+                <img src="https://awesomewallpapersblog.com/wp-content/uploads/2010/05/mac_march_.png" class="profile-image">
+                
+                <h3>起源と初期コンテンツ</h3>
+                <p>AxoGMは2023年初頭、YouTubeチャンネルで「backroom complex art timelapse」という動画を投稿してデビューしました。</p>
+                
+                <h3>成長とマイルストーン</h3>
+                <p>2025年4月時点で、AxoGMのチャンネル登録者数は約504人に達しています。</p>
+                
+                <h3>オンライン活動とプロジェクト</h3>
+                <p>Instagram（ユーザー名: creategm10）では、ArtStationと連携してデジタルアートやスカルプト作品を紹介しています。</p>
+                
+                <h3>現在の焦点</h3>
+                <p>現在もアートのタイムラプス、サーバー設定ガイド、プログラミングデモを制作しています。</p>
+            </div>
+            
+            <div class="content-block">
+                <h2>TheCreateGM</h2>
+                <img src="https://assets.midnightcheese.com/images/68k/68k-desktop.gif" class="profile-image">
+                
+                <h3>YouTube活動の始まり</h3>
+                <p>TheCreateGMは、少なくとも2021年からYouTubeにMinecraft PEのビルドタイムラプス動画を投稿しています。</p>
+                
+                <h3>フォーラムとコミュニティ活動</h3>
+                <p>2021年10月20日、CloudburstMC（旧Nukkit）フォーラムに登録しました。</p>
+                
+                <h3>サーバー開発</h3>
+                <p>2021年4月には「4cpvp」というアナーキー系のMinecraftサーバーを立ち上げました。</p>
+                
+                <h3>現在の活動</h3>
+                <p>YouTubeへの新規動画投稿は少ないものの、Minecraftサーバーの運営とSNS活動は継続しています。</p>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; axogm 2025</h2>
+        </div>
+    </div>
+    
+    <!-- Order Page -->
+    <div data-role="page" id="order">
+        <div data-role="header" data-theme="d">
+            <h1>Order Services</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-home">Home</a>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order" class="ui-btn-active">Order</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <div class="content-block">
+                <h2>Our Services</h2>
+                <p>Choose from our available service packages:</p>
+                
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#">
+                        <h2>Member Package</h2>
+                        <p>RM 50 per project</p>
+                    </a></li>
+                    <li><a href="#">
+                        <h2>Pro Member Package</h2>
+                        <p>RM 100 per project</p>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; axogm 2025</h2>
+        </div>
+    </div>
+    
+    <!-- Support Page -->
+    <div data-role="page" id="support">
+        <div data-role="header" data-theme="d">
+            <h1>Support</h1>
+            <a href="#home" class="ui-btn ui-btn-left ui-btn-icon-left ui-icon-home">Home</a>
+            <div data-role="navbar" data-theme="d">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#support" class="ui-btn-active">Support</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div role="main" class="ui-content">
+            <div class="content-block support-form">
+                <h2>Support Request</h2>
+                
+                <form id="registrationForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    
+                    <fieldset data-role="controlgroup">
+                        <legend>Package:</legend>
+                        <input type="radio" name="package" id="member" value="50">
+                        <label for="member">Member (RM 50)</label>
+                        <input type="radio" name="package" id="pro" value="100">
+                        <label for="pro">Pro Member (RM 100)</label>
+                    </fieldset>
+                    
+                    <label for="noproject">No. of Projects:</label>
+                    <input type="number" id="noproject" required>
+                    
+                    <button type="submit" class="ui-btn ui-btn-b">Submit</button>
+                </form>
+                
+                <div id="output"></div>
+            </div>
+        </div>
+        
+        <div data-role="footer" data-theme="d">
+            <h2>&copy; axogm 2025</h2>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>
+        $(document).on("pagecreate", "#support", function() {
+            $("#registrationForm").on("submit", function(event) {
+                event.preventDefault();
+                
+                var name = $("#name").val().trim();
+                var packageValue = $("input[name='package']:checked").val();
+                var numProjects = parseInt($("#noproject").val());
+                
+                var outputDiv = $("#output");
+                outputDiv.html("");
+                
+                // Validation
+                if (name === "") {
+                    outputDiv.html("<div class='ui-body ui-body-a ui-corner-all'><p style='color: red;'>Error: Please enter your Name.</p></div>");
+                    return;
+                }
+                
+                if (!packageValue) {
+                    outputDiv.html("<div class='ui-body ui-body-a ui-corner-all'><p style='color: red;'>Error: Please select a Package.</p></div>");
+                    return;
+                }
+                
+                if (isNaN(numProjects) {
+                    outputDiv.html("<div class='ui-body ui-body-a ui-corner-all'><p style='color: red;'>Error: Please enter a valid Number of Projects.</p></div>");
+                    return;
+                }
+                
+                // Calculation
+                var packageCost = parseInt(packageValue);
+                var totalCost = packageCost * numProjects;
+                
+                // Display results
+                var resultHtml = "<div class='ui-body ui-body-a ui-corner-all'><p><b>Registration Details:</b></p>";
+                resultHtml += "<p>Name: " + name + "</p>";
+                resultHtml += "<p>Package Cost per project: RM " + packageCost.toFixed(2) + "</p>";
+                resultHtml += "<p>Number of Projects: " + numProjects + "</p>";
+                resultHtml += "<p><b>Total Estimated Cost: RM " + totalCost.toFixed(2) + "</b></p></div>";
+                
+                outputDiv.html(resultHtml);
+            });
+        });
+    </script>
+</body>
+</html>
